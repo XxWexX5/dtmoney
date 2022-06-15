@@ -19,7 +19,7 @@ const Home: NextPage = () => {
         <meta name="description" content="Organize now your finance life." />
         <meta name="keywords" content="HTML, CSS, JavaScript" />
         <meta name="author" content="Wevisonn R." />
-        <meta property="og:image" content="/images/money.png" />
+        <meta property="og:image" content="/images/money.jpg" />
         <meta property="og:type" content="article" />
         <link rel="icon" href="/images/favicon.png" />
       </Head>
