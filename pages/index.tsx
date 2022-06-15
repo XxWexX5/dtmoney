@@ -1,6 +1,13 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 
+import styled from "styled-components";
+
+const Title = styled.h1`
+  color: #8257e6;
+  font-size: 24px;
+`;
+
 const Home: NextPage = () => {
   return (
     <div>
@@ -23,6 +30,8 @@ const Home: NextPage = () => {
         <meta property="og:type" content="article" />
         <link rel="icon" href="/images/favicon.png" />
       </Head>
+
+      <Title>Hello World!</Title>
     </div>
   );
 };
