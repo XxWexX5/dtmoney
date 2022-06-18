@@ -13,6 +13,7 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>dt money</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
         <meta property="og:title" content="dt money" />
         <meta
           property="og:description"
@@ -29,6 +30,11 @@ const Home: NextPage = () => {
         <meta property="og:image" content="/images/money.jpg" />
         <meta property="og:type" content="article" />
         <link rel="icon" href="/images/favicon.png" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+          rel="stylesheet"
+        />
       </Head>
 
       <Title>Hello World!</Title>
