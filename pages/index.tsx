@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 
 import { Header } from "../components/Header";
+import { Dashboard } from "../components/Dashboard";
 
 const Home: NextPage = () => {
   return (
@@ -27,12 +28,13 @@ const Home: NextPage = () => {
         <link rel="icon" href="/images/favicon.png" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
           rel="stylesheet"
         />
       </Head>
 
       <Header />
+      <Dashboard />
     </>
   );
 };
