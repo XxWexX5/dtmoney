@@ -1,16 +1,11 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 
-import styled from "styled-components";
-
-const Title = styled.h1`
-  color: #8257e6;
-  font-size: 24px;
-`;
+import { Header } from "../components/Header";
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <>
       <Head>
         <title>dt money</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -37,8 +32,8 @@ const Home: NextPage = () => {
         />
       </Head>
 
-      <Title>Hello World!</Title>
-    </div>
+      <Header />
+    </>
   );
 };
 
